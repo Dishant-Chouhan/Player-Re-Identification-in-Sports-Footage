@@ -2,7 +2,7 @@
 
 This repository contains the solution for the **Liat.ai AI/ML Intern Assignment** (Option 2: Re-Identification in a Single Feed). It processes a 15-second soccer video (`15sec_input_720p.mp4`) to detect and track objects including the **ball, goalkeeper, players**, and **referees**, using **YOLOv11** for detection and a **ResNet18-based tracker** for re-identification. The output includes an annotated video and an evaluation report.
 
-🔗 **[Download Pre-trained Model (best.pt)](https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view)**
+**[Download Pre-trained Model (best.pt)](https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view)**
 
 ---
 
@@ -53,12 +53,18 @@ python main.py
 - `logs/detection_log.txt`
 - `logs/tracking_log.txt`
 
+
+
 The script performs:
 - Object detection (YOLOv11)
 - Tracking & re-identification (ResNet18-based tracker)
 - Annotated video output  
   (Color-coded bounding boxes: Red = Ball, Yellow = Goalkeeper, Green = Players, Blue = Referees)
 
+- 
+## 📹 Output Video
+
+[Watch the output video](https://drive.google.com/file/d/1fzXlMIaVKB7IqiwfyF7XfvEmVRIvyxhe/view?usp=sharing)
 ---
 
 ### Evaluate Performance:
