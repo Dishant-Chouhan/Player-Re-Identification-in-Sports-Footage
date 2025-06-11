@@ -107,7 +107,7 @@ player_reid/
 ## Notes
 
 - The current implementation prioritizes functionality over optimization due to time constraints.
-- Refer to `report.md` for known limitations, challenges, and suggested improvements.
+- Refer to `report.pdf` for known limitations, challenges, and suggested improvements.
 - For a re-identification example, examine frames **210–229 (~8.4–9.2s)** in `output/output.mp4`.
 - For more detailed metrics and analysis, **run `evaluate.py`**.
 
