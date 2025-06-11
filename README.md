@@ -1,4 +1,4 @@
-# 🧠 Player Re-Identification in a Single Feed
+# Player Re-Identification in a Single Feed
 
 This repository contains the solution for the **Liat.ai AI/ML Intern Assignment** (Option 2: Re-Identification in a Single Feed). It processes a 15-second soccer video (`15sec_input_720p.mp4`) to detect and track objects including the **ball, goalkeeper, players**, and **referees**, using **YOLOv11** for detection and a **ResNet18-based tracker** for re-identification. The output includes an annotated video and an evaluation report.
 
@@ -6,7 +6,7 @@ This repository contains the solution for the **Liat.ai AI/ML Intern Assignment*
 
 ---
 
-## 🚀 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - NVIDIA GPU with CUDA 
@@ -16,7 +16,7 @@ This repository contains the solution for the **Liat.ai AI/ML Intern Assignment*
 
 ---
 
-## 📦 Installation
+## Installation
 
 Install dependencies using:
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠️ Setup
+## Setup
 
 ```bash
 git clone <your-repo-url>
@@ -41,7 +41,7 @@ set KMP_DUPLICATE_LIB_OK=TRUE
 
 ---
 
-## ▶️ Running the Code
+## Running the Code
 
 ### Process the Video:
 ```bash
@@ -61,7 +61,7 @@ The script performs:
 
 ---
 
-### 📊 Evaluate Performance:
+### Evaluate Performance:
 ```bash
 python evaluate.py
 ```
@@ -77,11 +77,11 @@ The evaluation script measures:
 - ID assignment consistency  
 - Processing efficiency  
 
-📌 For more detailed insights, **process `evaluate.py` and refer to the generated report**.
+For more detailed insights, **process `evaluate.py` and refer to the generated report**.
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 player_reid/
@@ -104,7 +104,7 @@ player_reid/
 
 ---
 
-## 📝 Notes
+## Notes
 
 - The current implementation prioritizes functionality over optimization due to time constraints.
 - Refer to `report.md` for known limitations, challenges, and suggested improvements.
