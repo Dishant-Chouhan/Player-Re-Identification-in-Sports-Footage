@@ -62,7 +62,7 @@ The script performs:
   (Color-coded bounding boxes: Red = Ball, Yellow = Goalkeeper, Green = Players, Blue = Referees)
 
 - 
-## 📹 Output Video
+**Output Video:**
 
 [Watch the output video](https://drive.google.com/file/d/1fzXlMIaVKB7IqiwfyF7XfvEmVRIvyxhe/view?usp=sharing)
 ---
